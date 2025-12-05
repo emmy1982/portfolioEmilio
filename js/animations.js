@@ -139,8 +139,8 @@ function initScrollAnimations() {
 
     // Configuración del Intersection Observer
     const observerOptions = {
-        threshold: 0.1, // Se activa cuando el 10% del elemento es visible
-        rootMargin: '0px 0px -50px 0px' // Se activa 50px antes de que el elemento entre en viewport
+        threshold: 0.05, // Se activa cuando el 5% del elemento es visible
+        rootMargin: '0px 0px -200px 0px' // Se activa 200px antes de que el elemento entre en viewport
     };
 
     // Crear el observer
@@ -155,8 +155,8 @@ function initScrollAnimations() {
                 } else if (element.classList.contains('project-item')) {
                     // Animación escalonada para proyectos
                     const index = Array.from(element.parentNode.children).indexOf(element);
-                    const delay = index * 0.2;
-                    element.style.animation = `fadeInUp 0.8s ease-out ${delay}s both`;
+                    const delay = index * 0.1;
+                    element.style.animation = `fadeInUp 0.6s ease-out ${delay}s both`;
                 } else if (element.classList.contains('skill-item')) {
                     // Animación escalonada para skills
                     const index = Array.from(element.parentNode.children).indexOf(element);
