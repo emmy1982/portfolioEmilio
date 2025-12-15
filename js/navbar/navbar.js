@@ -123,8 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Crear un enlace temporal para descargar
             const link = document.createElement('a');
-            link.href = 'assets/cv-emilio-mochon.pdf'; // Ruta a tu CV
-            link.download = 'CV-Emilio-Mochon.pdf';
+            link.href = 'assets/image/CurriculumEmilio.pdf'; // Ruta a tu CV
+            link.download = 'CV_Emilio_Mochon.pdf';
             link.target = '_blank';
             
             // Agregar efecto visual de descarga
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } catch (error) {
                 console.log('Error al descargar CV:', error);
                 // Fallback: abrir en nueva pestaña
-                window.open('assets/cv-emilio-mochon.pdf', '_blank');
+                window.open('assets/image/CurriculumEmilio.pdf', '_blank');
             }
         });
     }
