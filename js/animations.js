@@ -140,7 +140,7 @@ function initScrollAnimations() {
     // Configuración del Intersection Observer
     const observerOptions = {
         threshold: 0.05, // Se activa cuando el 5% del elemento es visible
-        rootMargin: '0px 0px -200px 0px' // Se activa 200px antes de que el elemento entre en viewport
+        rootMargin: '0px 0px 150px 0px' // Se activa 150px antes de que el elemento entre en viewport
     };
 
     // Crear el observer
