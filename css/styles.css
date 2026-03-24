@@ -809,6 +809,25 @@ span::after {
     margin-right: 100px;
 }
 
+.btn-portfolio {
+    margin-top: 1.5rem;
+    display: inline-block;
+    background: transparent;
+    color: var(--primary-color);
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: background 0.3s;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-portfolio:hover {
+    background: var(--primary-color);
+    color: #fff;
+    border: 2px solid var(--primary-color);
+}
+
 /* Skills Grid */
 
 #habilidades{
@@ -935,7 +954,8 @@ span::after {
 }
 
 .skill-item img{
-   filter: contrast(0.6);
+   /* filter: contrast(0.6); */
+   margin-bottom: 10px;
 }
 
 .skill-item i.responsive-design{
@@ -1337,6 +1357,23 @@ span.responsive-design{
     display: flex;
     align-items: center;
 }
+.mt{
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    transition: all 0.3s ease;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-bottom: 1rem;
+    /* border-bottom: 2px solid var(--text-color); */
+}
+
+.mt:hover {
+    color: var(--text-color);
+    transform: translateY(-3px);
+}
 
 .vertical-line {
     width: 2px;
@@ -1373,36 +1410,6 @@ span.responsive-design{
 .scroll-to-top i {
     font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
