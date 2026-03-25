@@ -812,6 +812,8 @@ span::after {
 .btn-portfolio {
     margin-top: 1.5rem;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
     background: transparent;
     color: var(--primary-color);
     padding: 0.75rem 2rem;
